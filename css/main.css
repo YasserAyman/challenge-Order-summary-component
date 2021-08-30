@@ -1,0 +1,130 @@
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url(../fonts/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Red Hat Display reg';
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+}
+/* @import url(https://fonts.google.com/specimen/Red+Hat+Display); */
+body {
+    margin:20px auto;
+    width: 450px;
+    font-family: 'Red Hat Display reg';
+}
+
+
+.container {
+    width: 450px;
+    height: 700px;
+    box-shadow: 0px 20px 20px 0px #c6d2f7;
+    border-radius: 30px;
+}
+
+/* Start Image Top */
+.container .head .img-top {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/* End Image Top */
+/* Start Content Text */
+.container .content-top {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-flow: column;
+    padding: 0 50px 0 50px;
+    margin-bottom: 15px;
+}
+
+.container .content-top h3 {
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    font-size: 36px;
+    color: #253257;
+    margin: 25px 0 10px;
+}
+
+.container .content-top p {
+    font-family: 'Red Hat Display reg';
+    color: #abafc3;
+    line-height: 1.5;
+    font-weight: bold;
+}
+/* End Content Text */
+/* Start Box Price */
+.container .price {
+    width: 300px;
+    height: 100px;
+    background-color: #F8F9FE;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0px auto;
+    border-radius: 12px;
+    padding: 0px 30px 0 30px;
+}
+.container .price .music-ico img {
+    width: 40px;
+}
+
+.container .price .price-plan {
+    margin-left: 20px;
+    margin-right: 110px;
+}
+
+.container .price .price-plan h5:first-child {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    font-size: 15px;
+}
+.container .price .price-plan h5:last-child {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.container .price .left-button {
+
+}
+.container .price .left-button a {
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #382ae1;
+}
+/* End Box Price */
+/* Start Button Submit */
+.container .button-submit {
+    width: 360px;
+    height: 50px;
+    background-color: #382AE1;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    box-shadow: -4px 7px 13px 7px #c6d2f7;
+}
+/* End Button Submit */
+/* Start Button Cancel */
+.container a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.container .cancel {
+    color: #8384a0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+/* End Button Cancel */
